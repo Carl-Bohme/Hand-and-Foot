@@ -72,7 +72,7 @@ export function MainNav({
             </SheetTrigger>
             <SheetContent
               side="right"
-              className="flex w-[min(100vw-2rem,320px)] flex-col gap-6 pt-8"
+              className="flex w-[min(100vw-2rem,320px)] flex-col gap-6 px-4 pt-8 pb-6"
             >
               <SheetTitle className="sr-only">Menu</SheetTitle>
               <div className="flex flex-col gap-1">
@@ -88,7 +88,7 @@ export function MainNav({
                   </Link>
                 ))}
               </div>
-              <div className="mt-auto flex flex-col gap-3 border-t pt-4 [&_a]:block [&_a]:w-full [&_button]:w-full [&_button]:justify-center">
+              <div className="mt-auto flex flex-col gap-3 border-t pt-4 [&_a]:flex [&_a]:h-11 [&_a]:w-full [&_a]:items-center [&_a]:justify-center [&_button]:min-h-11 [&_button]:w-full [&_button]:inline-flex [&_button]:items-center [&_button]:justify-center">
                 {rightSlot}
               </div>
             </SheetContent>
